@@ -9,6 +9,7 @@
 ## Запуск ##
 
     bundle install
+    cp config.yaml.sample config.yaml
     PIDFILE=./resque.pid BACKGROUND=yes QUEUE=notifications rake resque:work
     bundle exec ruby main.rb
 
