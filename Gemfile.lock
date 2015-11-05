@@ -25,6 +25,7 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
+    rake (10.4.2)
     redis (3.2.1)
     redis-namespace (1.5.2)
       redis (~> 3.0, >= 3.0.4)
@@ -51,4 +52,5 @@ DEPENDENCIES
   logger
   nexmo
   pony
+  rake
   resque (~> 1)
